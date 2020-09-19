@@ -19,15 +19,15 @@ html{
     height: 100vh;
     padding-block-end: 1rem;
 }
+.contenedor{
+    
+    margin: 0 auto;
+}
 .barra{
     display: flex;
     background-color: black;
     justify-content: space-between;
     align-items: center;
-}
-.barra{
-    padding-left: 1rem;
-    margin: 0%;
 }
 .nav a{
     color: white;
@@ -43,7 +43,7 @@ html{
  /**About us**/
 .header-about{
     background-image: url(../imagenes/duo.jpg);
-    opacity: 0.5;
+    opacity: 0.6;
     background-position: center center;
     background-size: cover;
     min-height: 60rem;
@@ -54,7 +54,7 @@ html{
     color: white;
     font-size: 2.5rem;
     display: flex;
-    flex-direction: column;  
+    justify-content: center;  
 }
 #linkjairo a{
     color: black;
