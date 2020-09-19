@@ -1,48 +1,61 @@
 
 
-.contenedor{
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Open sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+/**Header**/
+.site-header{
+    background-image: url(https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/119040818_10158867531279558_8949071265628188232_o.jpg?_nc_cat=103&_nc_sid=730e14&_nc_ohc=MfiSU2nO100AX_yaZsq&_nc_ht=scontent-vie1-1.xx&oh=34e3ca938bd04500ad1191cb6a95a098&oe=5F877ABF);
+    background-position: center center;
+    background-size: cover;
+    min-height: 60rem;
+    height: 100vh;
+    padding-block-end: 1rem;
+}
+.barra{
     display: flex;
     background-color: black;
     justify-content: space-between;
     align-items: center;
-
 }
-figure{
-    padding-left: 10px;
+.barra{
+    padding-left: 1rem;
     margin: 0%;
 }
-.site-header.home{
-    background-image: url(https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/119040818_10158867531279558_8949071265628188232_o.jpg?_nc_cat=103&_nc_sid=730e14&_nc_ohc=MfiSU2nO100AX_yaZsq&_nc_ht=scontent-vie1-1.xx&oh=34e3ca938bd04500ad1191cb6a95a098&oe=5F877ABF);
-    background-position: center center;
-    background-size: cover;
-    min-height: 600px;
-    height: 100vh;
-    padding-block-end: 60px;
-}
-/**Header**/
-h1{
-    background-color: white;
-    color: black;
-    padding-top: 30px;
-    padding-left: 20px;
-}
-
-.head h1{
-    text-decoration: none;
-}
-.barra a{
+.nav a{
     color: white;
     text-transform: uppercase;
-    font-size: 15px;
-    margin-right: 14px;
+    font-size: 1.5rem;
+    margin-right: 1.4rem;
     text-decoration: none;
-   
- }
- .barra a:hover{
+}
+.nav a:hover{
      color:#e6d2d1;
  }
-/**About us**/
+
+ /**About us**/
+.header-about{
+    background-image: url(../imagenes/duo.jpg);
+    opacity: 0.5;
+    background-position: center center;
+    background-size: cover;
+    min-height: 60rem;
+    height: 100vh;
+    padding-block-end: 20rem;
+} 
+.container{
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;  
+}
 #linkjairo a{
-    text-decoration: none;
     color: black;
 }
