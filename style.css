@@ -60,15 +60,13 @@ footer{
     background-size: cover;
     min-height: 60rem;
     height: 100vh;
-    padding-block-end: 20rem;
-    
-  
-} 
+    padding-block-end: 10rem;
+}    
 .container{
     color: white;
     font-size: 2rem;
     display: flex;
-    padding-top: 6rem;
+    padding-top: 1rem;
     padding-left: 55rem;
 }
 #linkjairo a{
