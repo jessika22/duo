@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     font-family: Open sans-serif;
+    
 }
 html{
     font-size: 62.5%;
@@ -39,7 +40,18 @@ html{
 .nav a:hover{
      color:#e6d2d1;
  }
-
+section{
+    text-align: justify;
+    margin: 10rem 10rem 10rem 10rem;
+    font-size: 2rem;
+}
+footer{
+    font-size: 2rem;
+    text-align: center;
+    background-color: #e3e1dc;
+    padding-top: 2rem;
+    padding-bottom: 2rem;;
+}
  /**About us**/
 .header-about{
     background-image: url(../imagenes/duo.jpg);
@@ -49,12 +61,15 @@ html{
     min-height: 60rem;
     height: 100vh;
     padding-block-end: 20rem;
+    
+  
 } 
 .container{
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
-    justify-content: center;  
+    padding-top: 6rem;
+    padding-left: 55rem;
 }
 #linkjairo a{
     color: black;
