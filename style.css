@@ -6,7 +6,17 @@
     text-decoration: none;
     list-style: none;
     font-family: Open sans-serif;
-    
+    line-height: 1.8;
+}
+/**Globales**/
+h1{
+    font-size: 3.4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.2rem;
 }
 html{
     font-size: 62.5%;
@@ -18,7 +28,7 @@ html{
     background-size: cover;
     min-height: 60rem;
     height: 100vh;
-    padding-block-end: 1rem;
+    padding-block-end: 2rem;
 }
 .contenedor{
     
@@ -55,20 +65,27 @@ footer{
  /**About us**/
 .header-about{
     background-image: url(../imagenes/duo.jpg);
-    opacity: 0.6;
+    opacity: 0.5;
     background-position: center center;
-    background-size: cover;
+    background-size: cover; 
     min-height: 60rem;
     height: 100vh;
-    padding-block-end: 10rem;
+    padding-block-end: 5rem;
 }    
 .container{
     color: white;
     font-size: 2rem;
     display: flex;
+
     padding-top: 1rem;
     padding-left: 55rem;
 }
 #linkjairo a{
     color: black;
+    text-decoration: underline;
+    border-style: ;
+}
+/**Events**/
+.section-events{
+    margin-bottom: ;
 }
