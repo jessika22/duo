@@ -64,7 +64,7 @@ footer{
 }
  /**About us**/
 .header-about{
-    background-image: url(../imagenes/duo.jpg);
+    background-image: url(imagenes/duo.jpg);
     opacity: 0.5;
     background-position: center center;
     background-size: cover; 
@@ -83,7 +83,7 @@ footer{
 #linkjairo a{
     color: black;
     text-decoration: underline;
-    border-style: ;
+    
 }
 /**Events**/
 .section-events{
